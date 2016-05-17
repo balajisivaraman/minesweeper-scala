@@ -1,0 +1,23 @@
+(
+ :root-dir "/home/balaji/Coding/scala/minesweeper"
+ :cache-dir "/home/balaji/Coding/scala/minesweeper/.ensime_cache"
+ :name "minesweeper"
+ :java-home "/opt/java6"
+ :java-flags ("-XX:MaxPermSize=384m" "-Xms512m" "-Xmx1536m" "-Xss2m" "-XX:ReservedCodeCacheSize=256m" "-XX:+TieredCompilation" "-XX:+CMSClassUnloadingEnabled" "-XX:+UseConcMarkSweepGC")
+ :reference-source-roots ("/opt/java6/src.zip")
+ :scala-version "2.11.5"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "minesweeper"
+   :module-name "minesweeper"
+   :source-roots ("/home/balaji/Coding/scala/minesweeper/src/main/scala" "/home/balaji/Coding/scala/minesweeper/src/main/java" "/home/balaji/Coding/scala/minesweeper/src/test/scala" "/home/balaji/Coding/scala/minesweeper/src/test/java")
+   :target "/home/balaji/Coding/scala/minesweeper/target/scala-2.11/classes"
+   :test-targets ("/home/balaji/Coding/scala/minesweeper/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/home/balaji/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar")
+   :runtime-deps nil
+   :test-deps ("/home/balaji/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.1.jar" "/home/balaji/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar" "/home/balaji/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar")
+   :reference-source-roots ("/home/balaji/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.5-sources.jar" "/home/balaji/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.1-sources.jar" "/home/balaji/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.2-sources.jar" "/home/balaji/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.2-sources.jar")))
+ 
+)
